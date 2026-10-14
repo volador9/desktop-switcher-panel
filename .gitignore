@@ -1,0 +1,27 @@
+# 面向所有开源项目的通用忽略规则
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# PyInstaller 产物
+build/
+dist/
+*.spec
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本机配置
+config.json
+*.local
