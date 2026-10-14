@@ -11,6 +11,7 @@ where python >nul 2>nul || (
 
 python -m PyInstaller --noconfirm --clean --windowed --onefile ^
   --name DesktopSwitcherPanel ^
+  --icon assets\icon.ico ^
   --add-binary "VirtualDesktopAccessor.dll;." ^
   main.py
 
